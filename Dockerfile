@@ -13,7 +13,7 @@ RUN pip3 install -r requirements.txt
 
 COPY app/ /usr/src/app/
 
-VOLUME /usr/src/app
+VOLUME /usr/src/app/save
 
 ENTRYPOINT ["python3"]
 CMD ["main.py"]
