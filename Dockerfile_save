@@ -9,8 +9,5 @@ RUN pip3 install -r requirements.txt
 
 COPY app/ /usr/src/app/
 
-
-RUN mkdir -p /usr/src/conf
-
 ENTRYPOINT ["python3"]
 CMD ["main.py"]

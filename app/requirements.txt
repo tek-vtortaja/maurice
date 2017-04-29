@@ -1,0 +1,3 @@
+tensorflow==v0.12.0rc0
+Mido
+Tqdm
